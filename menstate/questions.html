@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mental state</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  </head>
+  <body class="wrapper">
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="background-color: #d0cfcd !important;">
+      <a class="navbar-brand" href="../index.html"><img src="../images/TIIDELogo1.png" style="width: 200px; height: 58px;"  alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link nav-item" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-item" href="#">GET STARTED</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-item" href="../index.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-item" href="../index.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+   <form id="quiz">
+   <div class="container questions-container">
+            <fieldset class="fieldset" name="q1">
+              <strong>1. Do you have trouble falling or staying asleep, or sleeping too much?</strong>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q1" id="q11" value="1" required>
+   <label class="form-check-label" for="q11">
+   Not at all
+   </label>
+</div>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q1" id="q12" value="2">
+   <label class="form-check-label" for="q12">
+   Several days
+   </label>
+</div>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q1" id="q13" value="3">
+   <label class="form-check-label" for="q13">
+   More than half the days
+   </label>
+</div>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q1" id="q14" value="4">
+   <label class="form-check-label" for="q14">
+   Nearly every day
+   </label>
+            </fieldset>
+
+            <fieldset class="fieldset" name="q2" >
+              <strong>2. Do you have poor appetite or do you overeat?</strong>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q2" id="q21" value="1" required>
+   <label class="form-check-label" for="q21">
+   Not at all
+   </label>
+</div>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q2" id="q22" value="2">
+   <label class="form-check-label" for="q22">
+  Several days
+   </label>
+</div>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q2" id="q23" value="3">
+   <label class="form-check-label" for="q23">
+   More than half the days
+   </label>
+</div>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q2" id="q24" value="4">
+   <label class="form-check-label" for="q24">
+   Nearly every day
+   </label>
+            </fieldset>
+
+
+
+            <fieldset class="fieldset" name="q3">
+              <strong>3. Feeling bad about yourself - or that you are a failure or have let yourself or your family down?</strong>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q3" id="q31" value="1" required>
+   <label class="form-check-label" for="q31">
+   Not at all
+   </label>
+</div>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q3" id="q32" value="2">
+   <label class="form-check-label" for="q32">
+  Several days
+   </label>
+</div>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q3" id="q33" value="3">
+   <label class="form-check-label" for="q33">
+   More than half the days
+   </label>
+</div>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q3" id="q34" value="4">
+   <label class="form-check-label" for="q34">
+   Nearly every day
+   </label>
+            </fieldset>
+
+
+            <fieldset class="fieldset" name="q4" >
+              <strong>4. Trouble concentrating on things, such as reading the newspaper or watching television?</strong>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q4" id="q41" value="1" required>
+   <label class="form-check-label" for="q41">
+   Not at all
+   </label>
+</div>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q4" id="q42" value="2">
+   <label class="form-check-label" for="q42">
+  Several days
+   </label>
+</div>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q4" id="q43" value="3">
+   <label class="form-check-label" for="q43">
+   More than half the days
+   </label>
+</div>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q4" id="q44" value="4">
+   <label class="form-check-label" for="q44">
+   Nearly every day
+   </label>
+            </fieldset>
+            <fieldset class="fieldset" name="q5" >
+              <strong>5. Thoughts that you would be better off dead, or of hurting yourself?</strong>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q5" id="q51" value="1" required>
+   <label class="form-check-label" for="q51">
+   Not at all
+   </label>
+</div>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q5" id="q52" value="2">
+   <label class="form-check-label" for="q52">
+  Several days
+   </label>
+</div>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q5" id="q53" value="3">
+   <label class="form-check-label" for="q53">
+   More than half the days
+   </label>
+</div>
+<div class="form-check">
+   <input class="form-check-input" type="radio" name="q5" id="q54" value="4">
+   <label class="form-check-label" for="q54">
+   Nearly every day
+   </label>
+            </fieldset>
+
+    <button>
+    Submit
+</button>
+
+</div>
+
+
+   </form>
+   <div class="wrapper back-button">
+      <a href="../index.html"><button class="button-home">Home</button></a>
+  </div>
+
+   <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content" id="modal">
+    <span class="close" id="close">&times;</span>
+    <div id="advice">
+       <div id="fit">
+         <h1>You are fit</h1>
+         <p>Avoid stress:A variety of factors, including work, education, family life, or relationships, can cause stress. It is important to try managing and addressing these stressful situations when they arise.</p>
+         <p>Exercise:High-intensity exercise releases the feel-good chemicals, known as endorphins, into the body.</p>
+         <p>Low-intensity exercise sustained over an extended period helps release proteins called neurotrophic factors, which improve brain function and make a person who is exercising feel better.</p>
+         <p>Many people who are depressed have low motivation for exercise, so it is a good idea to start with 5 minutes of walking or doing an enjoyable activity and gradually increase the length of time over the coming days, weeks, and months.</p>
+         <p>Avoid alcohol and drugs:There is a close link between depression, as well as anxiety disorders, and alcohol or other substance-use disorders.</p>
+        </div>
+      <div id="slight">
+         <h1>You are experiencing situational depression </h1>
+         <p>
+            You should see a doctor if your symptoms are making it difficult for you to take care of your everyday responsibilities and activities. Treatment can help you better cope with stressful events.
+            Treatment includes medications but make sure it is a doctor prescribing it for you
+         </p>
+         <p>
+            However, supportive psychotherapy is generally the preferred treatment for situational depression as the treatment can help enhance coping mechanisms and resilience. This is important because it can help you cope with future challenges and potentially avoid future bouts of situational depression. One type of therapy that may help is cognitive behavioral therapy (CBT).
+         </p>
+         <p>Once treatment is helping you address your depression, you can also make some lifestyle changes that can help you cope. These include:</p>
+         <ul>
+            <li>getting exercise</li>
+            <li>establishing healthy sleeping habits</li>
+            <li>getting more rest and relaxation</li>
+            <li>
+               eating more healthfully
+            </li>
+            <li>strengthening your social support system</li>
+         </ul>
+      </div>
+      <div id="psyc">
+         <h1>You are Psychotically depressed</h1>
+         <p>Don't fret. A person who receives treatment for psychotic depression can be back to their normal self in a couple of months.</p>
+         <p>There are two modalities of treatment for psychotic depression, Dr. Rothschild says. “The combination of an antidepressant with an antipsychotic is one, and electroconvulsive therapy (ECT) is the other,” he says. “That is a decision to make with the family and it depends on the situation.”</p>
+         <p>In some older patients, ECT may be used in order to avoid the side effects of medication. Sometimes a course of ECT is prescribed and then the antidepressant and antipsychotic are taken afterward. Talk therapy can be helpful, too, he says, but only after the first line treatment of medication or ECT has been started, Dr. Rothschild says.</p>
+      </div>
+
+      <div id="major">
+         <h1>You are experiencing Major depression</h1>
+         <p>The most helpful treatment is a combination of psychotherapy and medication.Medication should be prescibed by a medical professional</p>
+         <p>It usually takes at least two to six weeks of taking any antidepressant to see improvement. It may take several trials to find the medication that works best. Once the right medication is found, it may take up to a few months to find a proper dose and for the full positive effect to be seen.</p>
+         <p>A number of psychotherapy techniques have been demonstrated to be helpful, depending on the causes of the depression, the availability of family and other social support, and personal style and preference. A technique called cognitive behavioral therapy is designed to help a depressed person recognize negative thinking and teaches techniques for controlling symptoms. Psychodynamic, insight-oriented or interpersonal psychotherapy can help depressed people to sort out conflicts in important relationships or explore the history behind symptoms</p>
+         <p>In some situations, a treatment called electroconvulsive therapy (ECT) can be a life-saving option. This treatment is controversial, but very effective. In ECT, an electrical impulse is applied to the person's scalp and passes to the brain, causing a seizure. The patient is under anesthesia and is monitored carefully. Medication is given before the procedure to prevent any outward signs of convulsions, which helps to prevent injury. Improvement is seen gradually over a period of days to weeks after the treatment. ECT is the quickest and most effective treatment for the most severe forms of depression, and in most people, it is not more risky than other antidepressant treatments.</p>
+      </div>
+      <div>
+         <a href="#"><h3>Here's a link to a professional</h3></a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<footer class="page-footer">
+   <div class="container">
+     <div class="row justify-content-center">
+       <div class="footer-copyright">
+         <span> © 2020 Copyright:TIIDELab</span>
+         <a href=""><i class="fab fa-facebook-f fa-lg footer-icon"></i></a>
+         <a href=""><i class="fab fa-twitter fa-lg footer-icon"></i></a>
+         <a href=""><i class="fab fa-instagram fa-lg footer-icon"></i></a>
+         <a href=""><i class="fab fa-linkedin fa-lg footer-icon"></i></a>
+       </div>
+     </div>
+   </div>
+ </footer>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
